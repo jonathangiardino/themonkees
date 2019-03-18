@@ -1,6 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i|Rock+Salt');
 
 /*---------------------------------------------navbar*/
+
+.navbar-container {
+    background-color: #000;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-container a {
+    color: #fff;
+}
+
+.navbar-container a:hover {
+    color: #d11536;
+}
+
+.navbar-text {
+    color: #fff;
+}
+
+.navbar form span {
+    padding-right: 10px;
+}
+
+.navbar-toggler-icon .fa-bars {
+    color: #fff;
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    padding-top: .3000rem;
+}
 
 
 /*----------------------------------------------------cover*/
@@ -18,17 +51,18 @@
     justify-content: center;
 }
 
+.image-cover {
+    width: 600px;
+    height: 400px;
+}
+
+.responsive {
+    max-width: 600px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+}
+
 .jumbotron {
     background-color: transparent;
 }
-
-.jumbotron h1 {
-    color: #fff;
-    font-family: "Rock salt" , sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 0;
-}
-
-
-
