@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+/*---------------------------------------------navbar*/
+
+
+/*----------------------------------------------------cover*/
+
+.cover-container {
+    height: 100vh;
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-family: "Rock salt" , sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+
+
