@@ -30,11 +30,6 @@
     padding-top: 5px;
 }
 
-.navbar-brand {
-    font-weight: 700;
-    padding-top: .3000rem;
-}
-
 
 /*----------------------------------------------------cover*/
 
@@ -65,4 +60,34 @@
 
 .jumbotron {
     background-color: transparent;
+}
+
+
+/*----------------------------------------------------music*/
+
+.music-container {}
+
+.music-header h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.song-item {
+    margin-bottom: 50px;
+}
+
+.song-item p {
+    font-weight: bold;
+}
+
+.music-icon-photo {
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.music-player {
+    padding-top: 10px;
 }

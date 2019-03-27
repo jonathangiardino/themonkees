@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
+                    <a class="nav-link" href="#music">Music</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About us</a>
@@ -42,7 +42,7 @@
     <!--Nav-->
 
     <!--Cover-->
-    <div class="container-fluid cover-container">
+    <div class="container-fluid cover-container" id="home">
         <div class="row">
             <div class="col-xs-12">
                 <section class="jumbotron text-center">
@@ -55,26 +55,36 @@
 
     <!--Music-section-->
 
-    <div class="container-fluid music-container">
-        <div class="row">
-            <div class="col-xs-12">
+    <div class="container-fluid music-container" id="music">
+        <div class="row music-header">
+            <div class="col-12">
                 <div>
-                    <h2></h2>
+                    <h1>Music</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4">
-
+            <div class="col-sm-4 text-center song-item">
+                <img src="../assets/images/album.jpg" class="music-icon-photo" alt="albumCover"></img>
+                <p>Clarksville</p>
+                <audio controls class="music-player">
+                    <source src="../assets/audio/Clarksville.mp3" type="audio/mpeg"/>
+                </audio>
             </div>
-            <div class="col-sm-4">
-
+            <div class="col-sm-4 text-center song-item">
+                <img src="../assets/images/album2.jpg" class="music-icon-photo" alt="albumCover"></img>
+                <p>Daydream Believer</p>
+                <audio controls class="music-player">
+                    <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg"/>
+                </audio>
             </div>
-            <div class="col-sm-4">
-
-            </div>
-            <div class="col-sm-4">
-
+            <div class="col-sm-4 text-center song-item">
+                <img src="../assets/images/cover.jpg" class="music-icon-photo" alt="albumCover"></img>
+                <p>I am A Believer</span>
+                </p>
+                <audio controls class="music-player">
+                    <source src="../assets/audio/ImABeliever.mp3" type="audio/mpeg"/>
+                </audio>
             </div>
         </div>
     </div>
