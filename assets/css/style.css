@@ -3,7 +3,7 @@
 /*---------------------------------------------navbar*/
 
 .navbar-container {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
     border: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -30,6 +30,11 @@
     padding-top: 5px;
 }
 
+@media (max-width: 768px) {
+    .navbar-container {
+        background-color: #000000;
+    }
+}
 
 /*----------------------------------------------------cover*/
 
@@ -71,7 +76,7 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
     padding: 40px;
-    font-weight: bold;
+    color: #000000;
 }
 
 .song-item {
@@ -80,6 +85,7 @@
 
 .song-item p {
     font-weight: bold;
+    color: #000000;
 }
 
 .music-icon-photo {
@@ -90,4 +96,34 @@
 
 .music-player {
     padding-top: 10px;
+}
+
+/*----------------------------------------------------aboutUs*/
+
+.about-us-container {
+    padding-top: 40px;
+    background-color: #F2F4F4;
+}
+
+.video-player {
+    padding: 40px;
+}
+
+.video-about {
+    padding: 60px;
+}
+
+.video-about p {
+    padding-top: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .video-about h2 {
+        text-align: center;
+    }
 }
