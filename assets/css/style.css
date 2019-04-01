@@ -89,7 +89,7 @@
 }
 
 .music-icon-photo {
-    width: 300px;
+    width: 200px;
     padding-bottom: 20px;
     border-radius: 50px;
 }
@@ -97,6 +97,7 @@
 .music-player {
     padding-top: 10px;
 }
+
 
 audio:focus {
     outline: none;
@@ -162,4 +163,11 @@ video:focus {
 
 .cover-image-shows {
     padding: 25px;
+}
+
+/*----------------------------------------------------form*/
+
+
+.form-container {
+    background-color: #F2F4F4;
 }
