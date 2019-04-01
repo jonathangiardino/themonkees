@@ -11,6 +11,7 @@
 
 .navbar-container a {
     color: #fff;
+    text-transform: uppercase;
 }
 
 .navbar-container a:hover {
@@ -67,16 +68,15 @@
     background-color: transparent;
 }
 
-
 /*----------------------------------------------------music*/
 
-.music-container {}
 
 .music-header h1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     padding: 40px;
     color: #000000;
+    text-transform: uppercase;
 }
 
 .song-item {
@@ -98,10 +98,15 @@
     padding-top: 10px;
 }
 
+audio:focus {
+    outline: none;
+}
+
+
 /*----------------------------------------------------aboutUs*/
 
 .about-us-container {
-    padding-top: 40px;
+    padding: 30px;
     background-color: #F2F4F4;
 }
 
@@ -122,8 +127,39 @@ video {
     height: auto;
 }
 
+video:focus {
+    outline: none;
+}
+
 @media (max-width: 768px) {
     .video-about h2 {
         text-align: center;
     }
+
+    .video-player {
+        padding: 10px;
+    }
+
+    .video-about {
+        padding: 10px;
+    }
+}
+
+
+/*----------------------------------------------------liveShows*/
+
+.live-shows-container h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.list-group-item {
+    padding: 20px;
+}
+
+.cover-image-shows {
+    padding: 25px;
 }
