@@ -1,10 +1,4 @@
 
-
-notes for readme file:
-
-
-
-
 # The Monkees - Official Website 
 
 Stream One Project: User-Centric Frontend Development - Code Institute 
