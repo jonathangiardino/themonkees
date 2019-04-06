@@ -8,7 +8,7 @@ The website highlights the most popular band's tracks, their next live shows as 
 Furthermore it advertises that the band is available for live shows on demand and it has links to all social networks and a form to get in touch with the band management directly.
 
 ## Demo
-A live demo can be found [here](https://milestone-project-1-jonathangiardino.c9users.io/index.html).
+A live demo can be found [here](https://jonathangiardino.github.io/themonkees/).
 
 
 ## UX
@@ -72,7 +72,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 
 ## Credits
 - icon-navbar, gigs and social from Fontawesome
-- Logo Monkees https://www.kisspng.com/png-the-monkees-logo-pantages-theatre-musical-ensemble-1123111/
+- Logo Monkees [here](https://www.kisspng.com/png-the-monkees-logo-pantages-theatre-musical-ensemble-1123111/)
 
 ### Content
 All content in the "About Me" section are taken from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees)
