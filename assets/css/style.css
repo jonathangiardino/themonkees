@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i|Rock+Salt');
 
+html {
+  scroll-behavior: smooth;
+}
 
 /*---------------------------------------------navbar*/
 
@@ -42,6 +45,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 
     display: flex;
     align-items: center;
@@ -189,6 +193,22 @@ video:focus {
     padding: 25px;
 }
 
+.list-group-item h5 {
+    padding-bottom: 10px;
+}
+
+.list-group-item a {
+    color: #d11536;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #de5e74;
+}
+
 /*----------------------------------------------------form*/
 
 .form-container {
@@ -199,13 +219,12 @@ video:focus {
 
 /*----------------------------------------------------footer*/
 
-
 .socials {
     font-size: 40px;
     text-align: center;
     background-color: #000;
     color: #d11536;
-    padding:40px;
+    padding: 40px;
     letter-spacing: 5px;
 }
 
