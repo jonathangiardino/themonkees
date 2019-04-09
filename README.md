@@ -69,7 +69,7 @@ Furthermore I used media queries for iPad as the about us section re-sized respo
 After further review with my mentor I have noticed that images and media did not have absoulte paths and some of the media did not show hence I had to 
 change the paths and then all worked perfectly.
 
-Furthermore, since is a one-scroll page website, whenever clicking on one of the links in the Navbar there was no transition and ypu'd be taken to each section very quickly. 
+Furthermore, since is a one-scroll page website, whenever clicking on one of the links in the Navbar there was no transition and you'd be taken to each section very quickly. 
 Hence I added the attribute *scroll-behaviour: smooth;* to **html** and now the transition from the navbar links is smoother.
 However this attribute does not work on **Safari, Edge and Explorer**, but it works on **Chrome, Firefox and Opera.**
 
