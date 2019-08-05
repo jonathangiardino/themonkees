@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i|Rock+Salt');
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*---------------------------------------------navbar*/
+
+.navbar-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-container ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-container ul li a:hover {
+    color: #d11536;
+}
+
+.navbar-text {
+    color: #fff;
+}
+
+.navbar form span {
+    padding-right: 10px;
+}
+
+.navbar-toggler-icon .fa-bars {
+    color: #fff;
+    padding-top: 5px;
+}
+
+
+
+/*----------------------------------------------------cover*/
+
+.cover-container {
+    height: 100vh;
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-cover {
+    width: 600px;
+    height: 400px;
+}
+
+.responsive {
+    max-width: 600px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+@media (max-width: 767px) {
+    .cover-container {
+        background-image: none;
+        background-color: #000000;
+    }
+}
+
+
+
+/*----------------------------------------------------music*/
+
+.music-header h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.song-item {
+    margin-bottom: 50px;
+}
+
+.song-item p {
+    font-weight: bold;
+    color: #000000;
+}
+
+.music-icon-photo {
+    width: 200px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.music-player {
+    padding-top: 10px;
+}
+
+
+audio:focus {
+    outline: none;
+}
+
+@media (orientation: landscape) {
+    .music-player {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .music-player {
+        width: 100%;
+    }
+}
+
+
+
+/*----------------------------------------------------aboutUs*/
+
+.about-us-container {
+    padding: 30px;
+    background-color: #F2F4F4;
+}
+
+.video-player {
+    padding: 40px;
+}
+
+.video-about {
+    padding: 60px;
+}
+
+.video-about p {
+    padding-top: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+video:focus {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .video-about h2 {
+        text-align: center;
+    }
+    .video-player {
+        padding: 0;
+    }
+    .video-about {
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .video-player {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+/*----------------------------------------------------liveShows*/
+
+.live-shows-container h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.list-group-item {
+    padding: 20px;
+}
+
+.cover-image-shows {
+    padding: 25px;
+}
+
+.list-group-item h5 {
+    padding-bottom: 10px;
+}
+
+.list-group-item a {
+    color: #d11536;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #de5e74;
+}
+
+
+
+/*----------------------------------------------------form*/
+
+.form-container {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+/*----------------------------------------------------footer*/
+
+.socials {
+    font-size: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #d11536;
+    padding: 40px;
+    letter-spacing: 5px;
+}
+
+.socials a {
+    color: #d11536;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #de5e74;
+}
+
+.footer-header {
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
